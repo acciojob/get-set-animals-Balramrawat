@@ -23,7 +23,7 @@ class Cat extends Animal {
 		console.log("purr")
 	}
 }
-let myDog=new dog("Golden Retriver")
+let myDog=new Dog("Golden Retriver")
 console.log(myDog.speices)
 myDog.makeSound()
 myDog.bark()
