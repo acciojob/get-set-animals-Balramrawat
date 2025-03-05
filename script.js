@@ -1,4 +1,4 @@
-//complete this code
+
 class Animal {
 	constructor(speices){
 		this._speices=speices
@@ -6,7 +6,7 @@ class Animal {
 	get speices(){
 		return this._speices;
 	}
-	makesound(){
+	makeSound(){
 		console.log(`this ${this._speices} make a sound`)
 	}
 	
@@ -23,8 +23,20 @@ class Cat extends Animal {
 		console.log("purr")
 	}
 }
+let myDog=new dog("Golden Retriver")
+console.log(myDog.speices)
+myDog.makeSound()
+myDog.bark()
+
+let myCat=new Cat("siamese")
+console.log(myCat.speices)
+myCat.makeSound()
+myCat.purr()
+
 
 // Do not change the code below this line
 window.Animal = Animal;
 window.Dog = Dog;
 window.Cat = Cat;
+
+
